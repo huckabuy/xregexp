@@ -74,7 +74,7 @@ function hasNativeFlag(flag) {
 // Check for ES6 `u` flag support
 const hasNativeU = hasNativeFlag('u');
 // Check for ES6 `y` flag support
-const hasNativeY = hasNativeFlag('y');
+const hasNativeY = false; // BREAKS Google parsing // hasNativeFlag('y');
 // Tracker for known flags, including addon flags
 const registeredFlags = {
     g: true,
